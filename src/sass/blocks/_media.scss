@@ -1,0 +1,36 @@
+@media (max-width: 991px) {
+    .container {
+        width: 730px;
+    }
+
+    .catalog__content {
+        justify-content: space-around
+    }
+
+    .slick-dots {}
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 550px;
+    }
+
+    .feedback-item {
+        flex-direction: column;
+        align-items: center;
+
+        &__img {
+            margin-bottom: 10px;
+        }
+
+        &__subheader {
+            text-align: center;
+        }
+
+        &__marathon {
+            text-align: center;
+        }
+    }
+}

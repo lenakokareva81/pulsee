@@ -1,0 +1,72 @@
+.feedback {
+    margin-bottom: 48px;
+
+    &__title {
+        margin-bottom: 60px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+
+
+    }
+
+    .feedback-item {
+        display: block;
+        margin-bottom: 60px;
+        display: flex;
+        animation-name: leFadeInLeft;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-out;
+        // animation-iteration-count: infinite;
+
+        &__img {
+            width: 169px;
+            height: 169px;
+            display: block;
+
+        }
+
+        &__info {
+            padding: 0 60px 0 34px;
+        }
+
+        &__subheader {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+
+        &__marathon {
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #646464;
+        }
+
+        &__text {
+
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 10px;
+            letter-spacing: 0px;
+            text-align: left;
+
+
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+
+        }
+    }
+
+
+}
